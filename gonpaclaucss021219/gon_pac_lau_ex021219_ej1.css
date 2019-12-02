@@ -1,0 +1,119 @@
+#gonpaclauancla1{
+    float: right;
+}
+#divgonpaclauancla1{
+    width: 100%;
+    height: 50px;
+    border: 1px black solid;
+}
+.gonpaclauClase1{
+    color: cadetblue;
+    letter-spacing: 1.5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#gonpaclauParticular1{
+    outline: 3px aquamarine dotted;
+    text-align: center;
+    padding: 15px;
+    color: burlywood;
+}
+#fijadogonpaclau {
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: 1px solid black;
+}
+.imagen1gonpaclau{
+    text-align: center;
+}
+.gonpaclauContenedora1{
+  width: 70%;  
+  margin-top: 100px;
+  text-align: center;
+  background-color: darksalmon;
+  overflow: scroll;
+}
+div p{
+    letter-spacing: 3px;
+    font-size: 1.5em;
+    color: darkturquoise;
+}
+.imagen2gonpaclau{
+    float: right;
+}
+.ollclase1gonpaclau{
+    list-style-image: url(../Recursos/IconoBB1.jpg);
+    margin-top: 50px;
+}
+.gonpaclauliclase1::first-letter{
+    font-size: 1000%;
+    color: deeppink;
+}
+#gonpaclaufuente1{
+    font-family: url(../Tomorrow/Tomorrow-MediumItalic.ttf);
+   text-align: center;
+}
+.Contenedora2gonpaclau{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+.gonpaclauClases1{
+    text-align: center;
+    color: deepskyblue;
+    line-height: 2.2;
+    text-decoration: none;
+}
+.Clases2gonpaclau:link{
+    color: chartreuse;
+}
+.Clases2gonpaclau:visited{
+    color: lightskyblue;
+}
+.Clases2gonpaclau:active{
+    color: lavenderblush;
+}
+.Clases2gonpaclau:hover{
+    color: springgreen;
+}
+#gonpaclauancla2{
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+#divgonpaclauancla2{
+    width: 100%;
+    height: 50px;
+    border: 1px black solid;
+}
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari y otros */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.activegonpaclau {
+    background-color: #4CAF50;
+}
