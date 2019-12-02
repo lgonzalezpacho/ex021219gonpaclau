@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslateblue;
+    position: -webkit-sticky; /* Safari y otros */
+    position: sticky;
+    top: 0;
+}
+
+ul li {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: darkgrey;
+}
+
+.activegonpaclau {
+    background-color: dodgerblue;
+}
